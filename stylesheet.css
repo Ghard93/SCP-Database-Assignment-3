@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+}
+
+.banner {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.navbar {
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.contentContainer {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(22, 22, 22);
+}
+
+.mainContent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbutton {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.navbutton a {
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    display: block;
+    padding: 15px;
+}
+
+.navbutton a:hover {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    background-color: rgb(41, 41, 41);
+    display: block;
+}
+
+.contentBackground {
+    background-image: linear-gradient(rgb(73, 73, 73), rgb(54, 54, 54));
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    width: 90%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: rgb(43, 43, 43);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.scpLinkContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.scpLink {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.homePageMsg {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.scpButton {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+    border: none;
+}
+
+.scpButton a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+.scpButton:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+@media screen and (max-width: 800px) {
+    .homePageMsg {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    }
+    
+    .contentContainer {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(22, 22, 22);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbutton {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 0px;
+    }
+    
+    .contentContainer {
+    width: 95%;
+    margin: auto;
+    background-color: rgb(22, 22, 22);
+    }
+    
+    .scpButton {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+    border: none;
+    }
+    
+    .scpButton a {
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    
+    }
+    
+    .container {
+    width: 100%;
+    margin: auto;
+    }
+}
+
